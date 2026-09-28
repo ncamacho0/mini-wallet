@@ -89,7 +89,8 @@ npm run dev              # dev server (Turbopack)
 npm run build            # build de producción
 npm run start            # servidor de producción
 npm run lint             # ESLint
-npm run typecheck        # tsc --noEmit
+npm run typegen         # tipos generados por Next 16 (PageProps, LayoutProps, RouteContext)
+npm run typecheck        # next typegen + tsc --noEmit
 npm test                 # Vitest (unitarios, una corrida)
 npm run test:watch       # Vitest en modo watch
 npm run test:coverage    # Vitest + reporte de cobertura (umbrales 80/75)
